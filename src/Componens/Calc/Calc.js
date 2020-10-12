@@ -105,7 +105,7 @@ function Calc(props) {
                         </div>
                         <div className={style.product}>
                             <span>
-                                Производитель1
+                                Производитель
 
                             </span>
                             <br/>

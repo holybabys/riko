@@ -1,0 +1,30 @@
+
+footer {
+    max-width: 1920px;
+    background-color: #0f324c;
+}
+.wrapper {
+    max-width: 1230px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-family: "DINPro";
+    color: rgb(112, 131, 144);
+}
+ a:visited {
+     color: rgb(112, 131, 144);
+}
+ a {
+     text-decoration: none;
+ }
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px;
+}
+span {
+    margin-right: 30px;
+
+}

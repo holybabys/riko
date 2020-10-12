@@ -1,0 +1,122 @@
+.container {
+    max-width: 1930px;
+    background-image: url("discount_bg.png");
+    height: 720px;
+
+}
+.wrapper {
+    margin: 0 auto;
+    max-width: 1230px;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 70px;
+    padding-right: 46px;
+}
+.form {
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: rgb(235, 235, 235);
+    border-style: solid;
+
+}
+.form_head {
+    background-color: #00bc6e;
+    border-radius: 8px 8px 0 0;
+
+
+
+}
+.row {
+    display: flex;
+    align-items: center;
+}
+.head_line {
+    background-color: rgb(0, 0, 0);
+    opacity: 0.188;
+    font-size: 16px;
+    font-family: "DINPro";
+    color: rgba(255, 255, 255, 0.851);
+    line-height: 1.2;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.first {
+    display: flex;
+    flex-flow: column;
+    padding-top: 25px;
+    padding-left: 21px;
+    padding-bottom: 9px;
+}
+.wordOne {
+    font-size: 41px;
+    font-family: "DINProBlack";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.35);
+    -moz-transform: matrix( 1.04353779733266,0,0,1.0435377973327,0,0);
+    -webkit-transform: matrix( 1.04353779733266,0,0,1.0435377973327,0,0);
+    -ms-transform: matrix( 1.04353779733266,0,0,1.0435377973327,0,0);
+}
+.wordTwo {
+    font-size: 16px;
+    font-family: "DINProBold";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.35);
+}
+.second {
+    font-size: 76px;
+    font-family: "DINProBlack";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.35);
+    padding-bottom: 9px;
+    padding-top: 25px;
+    padding-right: 18px;
+}
+.inputs {
+    padding-top: 27px;
+    padding-bottom: 37px;
+    padding-right: 38px;
+    padding-left: 38px;
+    display: flex;
+    flex-flow: column;
+}
+.inputs button {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: "DINProBlack";
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    border-radius: 4px;
+    background: linear-gradient(to bottom, #ff7a39, #ee5c2e);
+    border-color: #ff7a39;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    padding-right: 68px;
+    padding-left: 68px;
+    margin-top: 60px;
+}
+.inputs input {
+    margin-top: 35px;
+    font-size: 18px;
+    font-family: "DINPro";
+    color: rgb(125, 125, 125);
+    line-height: 1.2;
+    text-align: left;
+    border-width: 1px;
+    border-color: rgb(200, 200, 200);
+    border-style: solid;
+    border-radius: 3px;
+    padding: 16px 18px;
+    background: url("man.png"); background-repeat: no-repeat;
+    background-position: 320px;
+}

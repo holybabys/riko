@@ -1,0 +1,138 @@
+@media (max-width: 575px) {
+    .headline {
+        flex-direction: column;
+    }
+
+    .contact {
+        flex-direction: column;
+    }
+   .intro {
+       background-color: #aaa7a5;
+    }
+
+}
+
+header {
+    max-width: 1930px;
+}
+
+.headline {
+    max-width: 1230px;
+    padding: 20px 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.logo img {
+    width: 100%;
+
+}
+.logo {
+    width: 15%;
+}
+
+
+
+
+
+
+
+.contact {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: rgb(9, 59, 95);
+    font-family: "DINProMedium";
+    font-weight: bold;
+}
+
+.contact button {
+    margin: 0 23px;
+    border-width: 2px;
+    border-color: rgb(253, 117, 56);
+    border-style: solid;
+    border-radius: 5px;
+    width: 175px;
+    height: 35px;
+    font-size: 15px;
+    font-family: "DINProBold";
+    color: rgb(9, 59, 95);
+    font-weight: bold;
+    background-color: white;
+}
+
+
+.intro {
+    background-image: url("../../img_riko/back_header.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    max-width: 1930px;
+    font-size: 50px;
+    padding: 150px 30px;
+}
+
+.content {
+
+    max-width: 1170px;
+    margin: 0 auto;
+
+    text-align: left;
+    padding: 150px 30px;
+    font-weight: bold;
+}
+
+.content h1 {
+    font-size: 50px;
+    font-family: "DINProBlack";
+    color: rgb(9, 59, 95);
+    line-height: 1.2;
+}
+
+
+.content_p2 {
+    font-size: 0.5em;
+    font-family: "DINProMedium";
+    color: rgb(85, 100, 110);
+    line-height: 1.2;
+}
+
+.content button {
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #ff7a39, #ee5c2e);
+padding: 23px 55px;
+    border-color: rgb(253, 99, 23);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 24px;
+    font-family: "DINProBlack";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    margin-top: 60px;
+
+}
+
+.content_p3 {
+    font-size: 0.4em;
+    font-family: "DINProMedium";
+    color: rgb(170, 167, 165);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.grouplogo {
+    display: flex;
+
+}
+
+.grouplogo img {
+    margin-right: 35px;
+}
+

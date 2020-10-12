@@ -1,0 +1,44 @@
+.container {
+    max-width: 1930px;
+
+
+}
+.wrapper {
+    display: block;
+    max-width: 1230px;
+    margin: 0 auto;
+    text-align: center;
+ background: url("../img_riko/WorkBg.png");
+background-size: 100%;
+    padding-bottom: 65%;
+    background-repeat: no-repeat;
+
+
+}
+.one {
+    display: flex;
+    justify-content: flex-start;
+
+
+}
+.two {
+display: flex;
+    justify-content: center;
+;
+}
+
+.three {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+h3 {
+
+    font-size: 20px;
+    font-family: DINPro;
+    font-weight: bold;
+}
+.item {
+    text-align: center;
+}

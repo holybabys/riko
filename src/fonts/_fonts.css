@@ -1,0 +1,30 @@
+@font-face {
+    font-family: GothamPro;
+src: url("../fonts/GothamPro.ttf");
+
+}
+@font-face {
+    font-family: BebasNeueBold;
+    src: url("../fonts/BebasNeue.ttf");
+
+}
+@font-face {
+    font-family: DINPro;
+    src: url("../fonts/DINPro.otf");
+
+}
+@font-face {
+    font-family: DINProBlack;
+    src: url("../fonts/DINProBlack.otf");
+
+}
+@font-face {
+    font-family: DINProMedium;
+    src: url("../fonts/DINProMedium.otf");
+
+}
+@font-face {
+    font-family: DINProMedium;
+    src: url("../fonts/DINProBold.otf");
+
+}

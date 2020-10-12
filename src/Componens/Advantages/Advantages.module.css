@@ -1,0 +1,45 @@
+.main {
+    background: url("../../img_riko/back_plus.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0 auto;
+    margin: 0 auto;
+    height: 680px;
+
+
+}
+
+.advantages__container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.advantages {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.advantages_item {
+    width: 20%;
+    padding: 30px;
+}
+
+.main h2 {
+    text-align: center;
+    font-size: 44px;
+    font-family: "DINProBlack";
+    color: rgb(9, 59, 95);
+}
+
+
+h3 {
+    font-size: 20px;
+    font-family: "DINPro";
+    color: rgb(71, 102, 126);
+    line-height: 1.2;
+
+}

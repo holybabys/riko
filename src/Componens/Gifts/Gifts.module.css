@@ -1,0 +1,105 @@
+.container {
+    max-width: 1930px;
+    background-color: #dadada;
+}
+
+.wrapper {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 134px;
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper h2 {
+    font-size: 44px;
+    font-family: "DINProBlack";
+    color: rgb(9, 59, 95);
+    line-height: 1.2;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.headtxt {
+    font-size: 20px;
+    font-family: "DINPro";
+    color: rgb(68, 98, 120);
+    line-height: 1.2;
+    text-align: center;
+}
+.giftsGroup {
+    box-sizing: border-box;
+    margin-top: 80px;
+    background-color: rgb(225, 225, 225);
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.gift {
+
+    background-color: white;
+    border-width: 1px;
+    border-color: rgb(225, 225, 225);
+    border-style: solid;
+    padding: 35px 26px 20px 12px;
+    width: 30%;
+    display: flex;
+
+}
+.gift img {
+   max-width: 100%;
+    max-height: 252px;
+
+}
+.test h3 {
+    font-size: 26px;
+    font-family: "DINPro";
+    color: rgb(71, 102, 126);
+    font-weight: bold;
+    line-height: 1.2;
+
+}
+.test {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    margin-left: 25px;
+}
+.test p {
+    text-align: left;
+}
+.free {
+    font-size: 18px;
+    font-family: "DINProBlack";
+    color: rgb(0, 189, 111);
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+.price {
+    font-size: 20px;
+    font-family: "DINPro";
+    color: rgb(68, 98, 120);
+    text-decoration: line-through;
+    line-height: 1.2;
+    text-align: left;
+
+}
+.gift button {
+    border-radius: 3px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(to bottom, #ff7a39, #ee5c2e);
+    border-color: #ff7a39;
+    font-size: 16px;
+    font-family: "DINProBlack";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px;
+}

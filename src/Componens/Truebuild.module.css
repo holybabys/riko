@@ -1,0 +1,98 @@
+.main {
+    max-width: 1930px;
+    margin: 0 auto;
+
+}
+
+.headline {
+    background: url("../img_riko/build_bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.headline h2 {
+    font-size: 44px;
+    font-family: "DINProBlack";
+    color: rgb(255, 255, 255);
+
+}
+
+.container {
+    max-width: 1230px;
+    margin: 0 auto;
+    display: flex;
+justify-content: center;
+
+}
+
+.item {
+    display: flex;
+justify-content: flex-start;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.itemText {
+    padding-left: 30px;
+}
+.itemText2 {
+    padding-left: 30px;
+}
+.itemText3 {
+    padding-left: 30px;
+}
+
+
+.itemText p {
+    font-size: 16px;
+    font-family: "DINPro";
+    color: rgb(130, 130, 130);
+    line-height: 1.2;
+    text-align: left;
+
+}
+.itemText2 p {
+    font-size: 16px;
+    font-family: "DINPro";
+    color: rgb(130, 130, 130);
+    line-height: 1.2;
+    text-align: left;
+
+}
+.itemText3 p {
+    font-size: 16px;
+    font-family: "DINPro";
+    color: rgb(130, 130, 130);
+    line-height: 1.2;
+    text-align: left;
+
+}
+.itemText h2 {
+    font-size: 28px;
+    font-family: "DINPro";
+    color: rgb(255, 122, 57);
+    line-height: 1.2;
+    text-align: left;
+
+}
+.itemText2 h2 {
+    font-size: 28px;
+    font-family: "DINPro";
+    color: #90aeba;
+    line-height: 1.2;
+    text-align: left;
+
+}
+.itemText3 h2 {
+    font-size: 28px;
+    font-family: "DINPro";
+    color: rgb(7, 176, 255);
+    line-height: 1.2;
+    text-align: left;
+}
+

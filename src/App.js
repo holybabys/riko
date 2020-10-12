@@ -1,26 +1,41 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import './App.css';
+import Header from "./Componens/header/header";
+import Advantages from "./Componens/Advantages/Advantages";
+import Build from "./Componens/TrueBuild";
+import Service from "./Componens/Service/service";
+import store from "./Componens/store";
+import Work from "./Componens/Work";
+import Footer from "./Componens/Footer/Footer";
+import Map from "./Componens/Map/Map";
+import Feedback from "./Componens/feedback/Feedback";
+import Calc from "./Componens/Calc/Calc";
+import Discount from "./Componens/discount/Discount";
+import Gifts from "./Componens/Gifts/Gifts";
+
+
+function App(props) {
+    return (
+        <div>
+    {/*        <Header/>
+            <Service/>
+            <Advantages state={store.state.advantages}/>
+            <Build/>
+            <Work/>*/}
+            <Calc state={store.state.calc}/>
+       {/*     <Gifts state={store.state.gifts}/>
+            <Feedback state={store.state.feedbacks}/>
+            <Discount/>
+            <Map/>
+            <Footer/>*/}
+
+
+        </div>
+
+    )
+
+        ;
 }
 
 export default App;

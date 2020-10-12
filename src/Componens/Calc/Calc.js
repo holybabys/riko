@@ -34,7 +34,7 @@ function Calc(props) {
                 let currentPrice = price[0].price;
                 let finalPrice = Math.floor(currentPrice * companyKf*profile)
                 setFPrice(finalPrice)
-                let middlePrice = Math.floor(currentPrice * 1.2)
+                let middlePrice = Math.floor(finalPrice * 1.2)
                 setMPrice(middlePrice + " руб")
             } else {
                 setFPrice("")
@@ -51,7 +51,7 @@ function Calc(props) {
                 let currentPrice = price[0].price;
                 let finalPrice = Math.floor(currentPrice * companyKf*profile)
                 setFPrice(finalPrice)
-                let middlePrice = Math.floor(currentPrice * 1.2)
+                let middlePrice = Math.floor(finalPrice * 1.2)
                 setMPrice(middlePrice + " руб")
             } else {
                 setFPrice("")
